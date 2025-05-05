@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "String Methods in C#", "Str
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ref Out In - Keywords", "Ref Out In - Keywords\Ref Out In - Keywords.csproj", "{877AEF38-66B2-4A34-8FCD-25CE4837D32B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boxing vs. Unboxing", "Boxing vs. Unboxing\Boxing vs. Unboxing.csproj", "{ABE469B8-DFA2-4EFE-9D9A-93EE486BF2D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "String vs. StringBuilder", "String vs. StringBuilder\String vs. StringBuilder.csproj", "{5AD05622-9F03-482E-B71A-E459CC1F5366}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{877AEF38-66B2-4A34-8FCD-25CE4837D32B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{877AEF38-66B2-4A34-8FCD-25CE4837D32B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{877AEF38-66B2-4A34-8FCD-25CE4837D32B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABE469B8-DFA2-4EFE-9D9A-93EE486BF2D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABE469B8-DFA2-4EFE-9D9A-93EE486BF2D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABE469B8-DFA2-4EFE-9D9A-93EE486BF2D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABE469B8-DFA2-4EFE-9D9A-93EE486BF2D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AD05622-9F03-482E-B71A-E459CC1F5366}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AD05622-9F03-482E-B71A-E459CC1F5366}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AD05622-9F03-482E-B71A-E459CC1F5366}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AD05622-9F03-482E-B71A-E459CC1F5366}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
