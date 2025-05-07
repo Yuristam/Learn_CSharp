@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exceptions. Try, Catch, Fin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance. Constructors. Base & This", "Inheritance. Constructors. Base & This\Inheritance. Constructors. Base & This.csproj", "{685BBB35-CA88-42F5-849D-856A083C0396}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encapsulation. Getters, Setters", "Encapsulation. Getters, Setters\Encapsulation. Getters, Setters.csproj", "{06CFEF94-3B01-412D-9648-C74FA03CC93B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{685BBB35-CA88-42F5-849D-856A083C0396}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{685BBB35-CA88-42F5-849D-856A083C0396}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{685BBB35-CA88-42F5-849D-856A083C0396}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06CFEF94-3B01-412D-9648-C74FA03CC93B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06CFEF94-3B01-412D-9648-C74FA03CC93B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06CFEF94-3B01-412D-9648-C74FA03CC93B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06CFEF94-3B01-412D-9648-C74FA03CC93B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
