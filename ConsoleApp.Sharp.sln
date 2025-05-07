@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "String vs. StringBuilder", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exceptions. Try, Catch, Finally", "Exceptions. Try, Catch, Finally\Exceptions. Try, Catch, Finally.csproj", "{46861543-E9ED-4527-9E18-12D991EE4A5B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Base & This - Keywords", "Base & This - Keywords\Base & This - Keywords.csproj", "{5B6DE289-5FF3-47D6-8C95-7C158ACAA09E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{46861543-E9ED-4527-9E18-12D991EE4A5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46861543-E9ED-4527-9E18-12D991EE4A5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46861543-E9ED-4527-9E18-12D991EE4A5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B6DE289-5FF3-47D6-8C95-7C158ACAA09E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B6DE289-5FF3-47D6-8C95-7C158ACAA09E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B6DE289-5FF3-47D6-8C95-7C158ACAA09E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B6DE289-5FF3-47D6-8C95-7C158ACAA09E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
