@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "String vs. StringBuilder", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exceptions. Try, Catch, Finally", "Exceptions. Try, Catch, Finally\Exceptions. Try, Catch, Finally.csproj", "{46861543-E9ED-4527-9E18-12D991EE4A5B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Base & This - Keywords", "Base & This - Keywords\Base & This - Keywords.csproj", "{5B6DE289-5FF3-47D6-8C95-7C158ACAA09E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance. Constructors. Base & This", "Base & This - Keywords\Inheritance. Constructors. Base & This.csproj", "{5B6DE289-5FF3-47D6-8C95-7C158ACAA09E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
