@@ -135,7 +135,6 @@ public class Animal
     }
 }
 
-
 public class Dog : Animal
 {
     public string Breed { get; }
