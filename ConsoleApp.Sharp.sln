@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encapsulation. Getters, Set
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance. Upcast, Downcast. Is & As", "Inheritance. Upcast, Downcast. Is & As\Inheritance. Upcast, Downcast. Is & As.csproj", "{E524761B-E076-47AF-862F-276047D6C931}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polymorphism. Virtual, Override", "Polymorphism\Polymorphism. Virtual, Override.csproj", "{D032BFBE-FE09-4BA9-BA0A-DC81C35229AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{E524761B-E076-47AF-862F-276047D6C931}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E524761B-E076-47AF-862F-276047D6C931}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E524761B-E076-47AF-862F-276047D6C931}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D032BFBE-FE09-4BA9-BA0A-DC81C35229AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D032BFBE-FE09-4BA9-BA0A-DC81C35229AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D032BFBE-FE09-4BA9-BA0A-DC81C35229AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D032BFBE-FE09-4BA9-BA0A-DC81C35229AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
