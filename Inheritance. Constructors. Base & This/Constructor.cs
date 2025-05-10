@@ -64,6 +64,7 @@ public class Book
 {
     public string Title;
     public int Pages;
+    public string AuthorName;
 
     public Book() : this("No Title", 0)
     {
@@ -78,13 +79,19 @@ public class Book
         Title = title;
         Pages = pages;
     }
+
+    public Book(string title, int pages, string authorName) : this(title, pages)   // "this" parameter from previous constructor
+    {
+        AuthorName = authorName;
+    }
 }
 
 
 // Use cases:
-var book1 = new Book();                                     // Title = "No Title", Pages = 0
-var book2 = new Book("Harry Potter");                       // Title = "Harry Potter", Pages = 100
-var book3 = new Book("The Lord of the Rings", 350);         // Title = "The Lord of the Rings", Pages = 350
+var book1 = new Book();                                         // Title = "No Title", Pages = 0
+var book2 = new Book("Harry Potter");                           // Title = "Harry Potter", Pages = 100
+var book3 = new Book("The Lord of the Rings", 350);             // Title = "The Lord of the Rings", Pages = 350
+var book4 = new Book("Human Lost", 176, "Osamu Dazai");         // Title = "Human Lost", Pages = 176, AuthorName = "Osamu Dazai"
 
 
 
