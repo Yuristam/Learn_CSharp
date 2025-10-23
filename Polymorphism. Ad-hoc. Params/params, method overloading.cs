@@ -1,4 +1,4 @@
-﻿Joo joo = new Joo();
+Joo joo = new Joo();
 Foo foo = new Foo();
 
 Console.WriteLine(joo.GetMax(4,5));                                     // Output: 5

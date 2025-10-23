@@ -1,8 +1,9 @@
-﻿// | Ref                                        | Out                   | In
-// |                                            |                       |
-// | MUST BE initialized                        | CAN BE uninitialized  | ONLY for read, we CAN'T change value
-// | can change the value, but NOT NECESSARY    | MUST change the value | USED mostly for big STRUCTURES (variable)
-
+﻿/*
+    | Ref                                        | Out                   | In
+    |                                            |                       |
+    | MUST BE initialized                        | CAN BE uninitialized  | ONLY for read, we CAN'T change value
+    | can change the value, but NOT NECESSARY    | MUST change the value | USED mostly for big STRUCTURES (variable)
+*/
 
 
 
@@ -18,8 +19,6 @@ Console.WriteLine(a); // Output: 5
 
 
 
-
-
 // ref
 void AddBonus(ref int salary) // Method modified the ORIGINAL variable
 {
@@ -29,8 +28,6 @@ void AddBonus(ref int salary) // Method modified the ORIGINAL variable
 int mySalary = 5000;
 AddBonus(ref mySalary);
 Console.WriteLine(mySalary); // Output: 6000
-
-
 
 
 
@@ -47,8 +44,6 @@ Console.WriteLine(i); // Output: 2
 
 
 
-
-
 // out
 void GetValues(out int a, out int b) // Method modified the ORIGINAL variables
 {
@@ -59,8 +54,6 @@ void GetValues(out int a, out int b) // Method modified the ORIGINAL variables
 int x = 4, y = 5;
 GetValues(out x, out y);
 Console.WriteLine($"{x}, {y}"); // Output: 10, 20
-
-
 
 
 

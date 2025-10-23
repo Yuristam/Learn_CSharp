@@ -1,4 +1,4 @@
-﻿// Polymorphism
+// Polymorphism
 
 Animal[] animals = new Animal[5];
 

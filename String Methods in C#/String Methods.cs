@@ -1,4 +1,24 @@
-﻿string myStr1 = "Hard choices, easy life. Easy choices, hard life.";
+﻿/*
+    String Methods:
+    1. ToLower(), ToUpper()
+    2. Contains()
+    3. StartsWith(), EndsWith()
+    4. Equals()
+    5. IndexOf(), LastIndexOf()
+    6. Insert()
+    7. PadLeft(), PadRight()
+    8. Remove(), Replace()
+    9. Substring()
+    10. ToCharArray()
+    11. Trim(), TrimStart(), TrimEnd()
+    12. Split()
+
+    String Fields:
+    1. Length
+*/
+
+
+string myStr1 = "Hard choices, easy life. Easy choices, hard life.";
 string myStr2 = "Hello!";
 string myStr3 = "f";
 string myStr4 = "John";

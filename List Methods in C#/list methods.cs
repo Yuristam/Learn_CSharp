@@ -1,4 +1,31 @@
-﻿List<int> numbers = new List<int>() { 4, 25, 11, 52, 325, 62 };
+/*
+    List Methods in C#:
+    1. Add(), AddRange()
+    2. Insert(), InsertRange()
+    3. Remove(), RemoveAt(), RemoveRange(), RemoveAll()
+    4. Clear()
+    5. Contains()
+    6. IndexOf(), LastIndexOf()
+    7. Find(), FindLast()
+    8. Exists()
+    9. TrueForAll()
+    10. BinarySearch()
+    11. AsReadOnly()
+    12. ConvertAll()
+    13. Reverse()
+    14. Sort()
+    15. ToArry()
+    16. CopyTo()
+    17. ForEach()
+    18. TrimExcess()
+
+    List Fields:
+    1. Count
+    2. Capacity
+*/
+
+
+List<int> numbers = new List<int>() { 4, 25, 11, 52, 325, 62 };
 List<string> messengers = ["WhatsApp", "Telegram"];
 List<string> socialNetworks = new List<string>();
 List<string> countries = ["USA", "Algeria", "Albania", "Germany", "China", "Canada"];

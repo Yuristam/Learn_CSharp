@@ -1,4 +1,3 @@
-﻿using System.Diagnostics;
 using System.Text;
 
 // string +=
@@ -15,6 +14,9 @@ for (int i = 0; i < 3; i++)
 // 4. result = "xx" + "x"   => "xxx"    → ❗ third new object created (+3)
 
 
+//-----------------------------------------------------------------------------
+
+
 // StringBuilder
 StringBuilder sb1 = new StringBuilder();
 
@@ -27,29 +29,3 @@ for (int i = 0; i < 3; i++)
 // 2. adds each symbol to array =>     [x][x][x][ ][ ][ ][ ][ ]...
 // 3. if symbols overflow array, it creates new array 2 times larger
 // 3. sb.ToString() creates single string
-
-
-
-
-
-
-// Time comparing
-var sw = Stopwatch.StartNew();
-
-string s = "";
-for (int i = 0; i < 100000; i++)
-    s += "x";
-
-sw.Stop();
-Console.WriteLine("string += time: " + sw.ElapsedMilliseconds + " ms");          // string +=
-
-sw.Restart();
-
-StringBuilder sb = new StringBuilder();
-for (int i = 0; i < 100000; i++)
-    sb.Append("x");
-
-string result = sb.ToString();
-
-sw.Stop();
-Console.WriteLine("StringBuilder time: " + sw.ElapsedMilliseconds + " ms");      // StringBuilder.Append()
