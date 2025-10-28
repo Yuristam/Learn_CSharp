@@ -110,7 +110,7 @@ public string Secret
 public class User
 {
     public string Username { get; }
-    private string password;
+    private string _password;
 
     public User(string username, string password)
     {
@@ -118,9 +118,9 @@ public class User
         SetPassword(password);
     }
 
-    private void SetPassword(string pwd)
+    private void SetPassword(string password)
     {
-        if (pwd.Length >= 8)
-            password = pwd;
+        if (password.Length >= 8)
+            _password = password;
     }
 }
