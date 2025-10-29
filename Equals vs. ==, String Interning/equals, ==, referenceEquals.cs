@@ -1,8 +1,6 @@
 /*
     Equals() vs. ==
 
-    ==                |  Equals()
-                      |
     Value Types       | Сравнивает по ЗНАЧЕНИЮ
     Reference Types   | Сравнивает по ССЫЛКЕ
     String            | Сравнивает по ЗНАЧЕНИЮ (Текст)
