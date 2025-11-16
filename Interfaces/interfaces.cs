@@ -1,3 +1,5 @@
+// Первый пример
+
 interface ICar
 {
     int Move(int distance);
@@ -42,7 +44,6 @@ class Cyborg : ICar, IHuman
 
 
 
-
 var car = new BMW();
 var person = new Person();
 var cyborg = new Cyborg();
@@ -60,3 +61,87 @@ Console.WriteLine($"Киборг как человек прошел: {((IHuman)c
             Киборг как машина проехал: 2500 км
             Киборг как человек прошел: 125 км
 */
+
+
+
+
+// Второй пример
+
+
+// interface with property
+interface ICar
+{
+    // Property
+    int Speed { get; set; }
+
+    // Method
+    int Move(int distance);
+}
+
+class Porche : ICar
+{
+    public int Speed { get; set; }
+
+    public int Move(int distance)
+    {
+        return Speed * 5;
+    }
+}
+
+class BMW : ICar
+{
+    public int Speed { get; set; }
+
+    public int Move(int distance)
+    {
+        return Speed * 10;
+    }
+}
+
+
+BMW bmw = new BMW();
+bmw.Speed = 250;
+
+Porche porche = new Porche();
+porche.Speed = 300;
+
+
+
+
+
+// Третий пример
+
+public interface IFlyable
+{
+    void Fly();
+}
+
+public class Bird : IFlyable
+{
+    public void Fly()
+    {
+        Console.WriteLine("Bird flaps wings and flies");
+    }
+}
+
+public class Airplane : IFlyable
+{
+    public void Fly()
+    {
+        Console.WriteLine("Airplane turns on engines and flies");
+    }
+}
+
+
+public void MakeItFly(IFlyable thing)
+{
+    thing.Fly();
+}
+
+
+
+IFlyable b = new Bird();
+IFlyable a = new Airplane();
+
+MakeItFly(b); // Bird flaps wings and flies
+MakeItFly(a); // Airplane turns on engines and flies
